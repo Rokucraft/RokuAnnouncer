@@ -1,0 +1,4 @@
+interval: 5
+messages:
+  - <blue>First announcement
+  - <green>Second announcement

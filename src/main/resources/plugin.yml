@@ -1,0 +1,4 @@
+name: RokuAnnouncer
+main: com.rokucraft.rokuannouncer.RokuAnnouncer
+version: '${version}'
+api-version: 1.19
