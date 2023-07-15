@@ -1,4 +1,9 @@
+# Interval (in minutes) between announcements
 interval: 5
+
+# Announcements to send to all players on the server
+# These messages support MiniMessage tags.
+# For more information, see https://docs.advntr.dev/minimessage/format.html
 messages:
   - <blue>First announcement
   - <green>Second announcement
