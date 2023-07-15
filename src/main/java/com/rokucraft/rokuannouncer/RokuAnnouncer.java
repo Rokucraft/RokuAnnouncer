@@ -21,7 +21,7 @@ public class RokuAnnouncer extends JavaPlugin {
             Component message = messages.get(i);
             this.getServer().getScheduler().scheduleSyncRepeatingTask(
                     this,
-                    () -> this.getServer().sendMessage(message),
+                    () -> this.getServer().getOnlinePlayers().forEach(p -> p.sendMessage(message)),
                     i * intervalTicks,
                     intervalTicks * messages.size()
             );
