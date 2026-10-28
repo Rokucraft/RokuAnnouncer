@@ -25,5 +25,5 @@ jobs:
       - name: Upload Plugin Artifact
         uses: actions/upload-artifact@v7
         with:
-          name: RokuAnnouncer
           path: build/libs/*.jar
+          archive: false
